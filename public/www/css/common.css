@@ -16,5 +16,9 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+.br-20 {
+  border-radius: 20px;
+}
 .wrap {
 }
