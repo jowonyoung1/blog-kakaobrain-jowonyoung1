@@ -49,4 +49,6 @@ body {
   color: #fff;
 }
 .wrap {
+  position: relative;
+  padding-top: 70px;
 }
