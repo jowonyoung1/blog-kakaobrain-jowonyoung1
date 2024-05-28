@@ -18,6 +18,7 @@ const MainBottomListItem = ({
   const styleCate = {
     color: txtcolor,
   };
+  // 아이콘
   const iconUrl = `./images/icon/${icon}`;
 
   useEffect(() => {

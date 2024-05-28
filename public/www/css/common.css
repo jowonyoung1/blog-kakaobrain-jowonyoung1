@@ -9,9 +9,10 @@
   box-sizing: border-box;
 }
 a {
-  color: #000;
+  color: #000000;
   text-decoration: none;
 }
+
 html {
   overflow-x: hidden;
 }
@@ -37,7 +38,7 @@ body {
 .bt-more {
   display: block;
   padding: 11px 20px;
-  border: 1px solid #000;
+  border: 1px solid #000000;
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
@@ -45,9 +46,10 @@ body {
   border-radius: 20px;
 }
 .bt-more:hover {
-  background: #000;
-  color: #fff;
+  background: #000000;
+  color: #ffffff;
 }
+
 .wrap {
   position: relative;
   padding-top: 70px;

@@ -36,6 +36,7 @@ const MbHeader = ({ mbMenuOpen, setMbMenuOpen }) => {
       window.removeEventListener("resize", resizeFn);
     };
   }, []);
+
   return (
     <>
       <div className="mb-header-bg" ref={mbBg}></div>

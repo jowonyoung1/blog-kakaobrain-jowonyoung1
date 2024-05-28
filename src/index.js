@@ -14,14 +14,14 @@ const Wrap = () => {
   // js 코드 자리
   const [mbMenuOpen, setMbMenuOpen] = useState(false);
   const clickMbbt = () => {
-    setMbMenuOpen((prev) => {
+    setMbMenuOpen(prev => {
       return !prev;
     });
   };
 
   return (
     <div className="wrap">
-      <Header clickMbbt={clickMbbt}></Header>
+      <Header clickMbbt={clickMbbt} mbMenuOpen={mbMenuOpen}></Header>
       <MbHeader
         mbMenuOpen={mbMenuOpen}
         setMbMenuOpen={setMbMenuOpen}
@@ -35,5 +35,5 @@ root.render(
   <>
     <Popup></Popup>
     <Wrap></Wrap>
-  </>
+  </>,
 );

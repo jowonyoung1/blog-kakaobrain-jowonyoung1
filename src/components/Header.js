@@ -18,14 +18,14 @@ const Header = function ({ clickMbbt, mbMenuOpen }) {
   useEffect(() => {
     // const headerLogoLink = document.querySelector(".header-logo-link");
     headerLogoLink.current.addEventListener("mouseenter", function () {
-     // logoSlide.autoplay.start();
+      // logoSlide.autoplay.start();
       setIsOver(true);
     });
     headerLogoLink.current.addEventListener("mouseleave", function () {
       // logoSlide.autoplay.stop();
-      //  logoSlide.slideTo(0);
+      // logoSlide.slideTo(0);
       setIsOver(false);
-     });
+    });
 
     // const header = document.querySelector(".header");
     const headerActiveClass = "line-active";

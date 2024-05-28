@@ -1,29 +1,28 @@
 module.exports = {
-    env: {
-      browser: true,
-      es2021: true,
-    },
-    extends: ["eslint:recommended", "plugin:react/recommended", "prettier"],
-    overrides: [
-      {
-        env: {
-          node: true,
-        },
-        files: [".eslintrc.{js,cjs}"],
-        parserOptions: {
-          sourceType: "script",
-        },
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: ["eslint:recommended", "plugin:react/recommended", "prettier"],
+  overrides: [
+    {
+      env: {
+        node: true,
       },
-    ],
-    parserOptions: {
-      ecmaVersion: "latest",
-      sourceType: "module",
+      files: [".eslintrc.{js,cjs}"],
+      parserOptions: {
+        sourceType: "script",
+      },
     },
-    plugins: ["react"],
-    rules: {
-        "no-unused-vars":"off",
-        "react/prop-types": "off",
-        "react/react-in-jsx-scope":"off",
-        "no-undef": "off"
-    },
-  };
+  ],
+  parserOptions: {
+    ecmaVersion: "latest",
+    sourceType: "module",
+  },
+  plugins: ["react"],
+  rules: {
+    "no-unused-vars": "off",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+  },
+};

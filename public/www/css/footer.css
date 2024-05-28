@@ -29,7 +29,7 @@
 }
 
 .bt-orange {
-  display: inline-block;
+  display: inline-block !important;
   border: 1px solid #fec62c !important;
   background: #fec62c !important;
   color: #1e1e1e !important;
@@ -62,9 +62,11 @@
   color: #999999;
   white-space: nowrap;
 }
+
 .footer-top-sitemap dl dd a:hover {
   text-decoration: underline;
 }
+
 .rot-45 {
   transform: rotate(45deg);
 }
@@ -90,7 +92,7 @@
 }
 .copy {
   font-size: 14px;
-  color: #666;
+  color: #666666;
 }
 .footer-bottom-sns {
 }
@@ -106,7 +108,7 @@
   color: #807f80;
 }
 .sns-list li a:hover {
-  color: #ccc;
+  color: #cccccc;
 }
 
 @media all and (max-width: 1024px) {

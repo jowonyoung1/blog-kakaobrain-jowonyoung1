@@ -14,7 +14,7 @@
   position: relative;
   width: 60%;
   padding: 50px;
-  background: white;
+  background: #ffffff;
   line-height: 20px;
   border-radius: 10px;
 }
@@ -36,5 +36,5 @@
 
 .popup-close:hover {
   background: #f668b5;
-  color: #fff;
+  color: #ffffff;
 }
